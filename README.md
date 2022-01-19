@@ -39,6 +39,8 @@ To deploy the contract on rinkeby test network :
 ``` mark
 node deploy.js
 ```
-### Notice
+#### Notice
+
+To deploy the contract, you have to give your account's mnemonic's as parameter in _**`HDWalletProvider`**_ at deploy.js
 
 
