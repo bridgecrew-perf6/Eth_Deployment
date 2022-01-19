@@ -39,6 +39,6 @@ To deploy the contract on rinkeby test network :
 ``` mark
 node deploy.js
 ```
-
+### Notice
 
 
