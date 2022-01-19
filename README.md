@@ -4,3 +4,7 @@ This repository shows the deployment of a contract on ethereum rinkeby test netw
 
 Dependicies
 ------
+To install npm modules :
+
+``` mark
+npm install
