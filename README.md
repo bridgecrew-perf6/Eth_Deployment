@@ -41,6 +41,7 @@ node deploy.js
 ```
 #### Notice
 
-To deploy the contract, you have to give your account's mnemonic's as parameter in _**`HDWalletProvider`**_ at deploy.js
+To deploy the contract, you have to give your account's mnemonic's as parameter in _**`HDWalletProvider`**_  function at deploy.js.
+To see how open metamask account and add money please watch the [link](https://www.youtube.com/watch?v=Wk9W01KI4RU)
 
 
