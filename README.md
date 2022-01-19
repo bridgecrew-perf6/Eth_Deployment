@@ -1,3 +1,6 @@
 # Ethereum Rinkeby Test Network Deployment
 
-This reposository shows the deployment of a contract on ethereum rinkeby test network.
+This repository shows the deployment of a contract on ethereum rinkeby test network.
+
+Dependicies
+------
