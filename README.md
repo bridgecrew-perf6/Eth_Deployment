@@ -45,3 +45,14 @@ To deploy the contract, you have to give your account's mnemonic's as parameter 
 To see how open metamask account and add money please watch the [link](https://www.youtube.com/watch?v=Wk9W01KI4RU)
 
 
+Validation
+---------
+
+To validate the deployment on the rinkeby network , let's visit the [rinkeby.etherscan](https://rinkeby.etherscan.io/) website and search by pasting the 
+hash value of deployment adress.
+
+
+
+
+
+
