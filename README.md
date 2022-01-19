@@ -33,3 +33,12 @@ To test smart contract's message and setMessage functions :
 npm run test
 ```
 
+Deployment
+---------
+To deploy the contract on rinkeby test network : 
+``` mark
+node deploy.js
+```
+
+
+
