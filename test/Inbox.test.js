@@ -4,7 +4,7 @@ const assert = require('assert');
 const ganache = require('ganache-cli');
 const Web3 = require('web3')
 
-const web3 = new Web3(ganache.provider());
+const web3 = new Web3(ganache.provider());    // To connect ganache local test network
 
 const {interface, bytecode} = require('../compile');
 
@@ -18,10 +18,10 @@ beforeEach(async () => {
             console.log(fetchedAccounts);
         }) */
 
-    accounts = await web3.eth.getAccounts();
+    accounts = await web3.eth.getAccounts();       // To get accounts 
     
     inbox = await new web3.eth.Contract(JSON.parse(interface))
-        .deploy({ data: bytecode, arguments: ['Hi there']})
+        .deploy({ data: bytecode, arguments: ['Hi there']})       // Deploying the contract to ganache local test network
         .send({from: accounts[0], gas: '1000000'})
 
 
@@ -39,7 +39,7 @@ describe('Inbox', () => {
     it('It has a default message', async ()=> {
 
         const message = await inbox.methods.message().call()
-        assert.equal(message,'Hi there')
+        assert.equal(message,'Hi there')                                    // Test Cases
 
     });
 
