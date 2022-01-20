@@ -7,8 +7,8 @@ const {interface, bytecode} = require('./compile')
 
 
 const provider = new HDWalletProvider(
-    'phone tuition snap food orchard dirt pool struggle winter angle forest upgrade',
-    'https://rinkeby.infura.io/v3/b40e8dd408444ef79a3ea68dade63915'
+    '',  // Mnemonic words here !
+    'https://rinkeby.infura.io/v3/b40e8dd408444ef79a3ea68dade63915'  // Infura API key for rinkeby network
      
 );
 
@@ -20,7 +20,7 @@ const deploy = async () => {
     console.log(accounts[0])
 
     const contract_r = await new web3.eth.Contract(JSON.parse(interface))
-    .deploy({data: bytecode, arguments: [' Selam Rinkeby']})
+    .deploy({data: bytecode, arguments: [' Selam Rinkeby']})         // Deploy the contract to Rinkeby test network 
     .send({gas: '1000000', from: accounts[0]})
 
 
